@@ -25,7 +25,7 @@ document.write("Now the value of a is " + a + "<br>");
 //question 2//
 let A = 2;
 let b = 1;
-var result = --a - --b + ++b + b--;
+let result = --a - --b + ++b + b--;
 
 console.log("a is " + a);
 console.log("b is " + b);
@@ -52,23 +52,23 @@ document.write("<table border='1'>");
   document.write("</table>");
 
   //question 6//
-  var subject1 = prompt("Enter subject 1 name:");
-  var subject2 = prompt("Enter subject 2 name:");
-  var subject3 = prompt("Enter subject 3 name:");
+  let subject1 = prompt("Enter subject 1 name:");
+  let subject2 = prompt("Enter subject 2 name:");
+  let subject3 = prompt("Enter subject 3 name:");
 
   // Total marks for each subject is 100, store it in another variable
-  var totalMarks = 100;
+  let totalMarks = 100;
 
   // Take obtained marks for first subject from user and stored it in different variable
-  var obtainedMarks1 = parseInt(prompt("Enter obtained marks for " + subject1 + ":"));
+  let obtainedMarks1 = parseInt(prompt("Enter obtained marks for " + subject1 + ":"));
 
   // Take obtained marks for remaining 2 subjects from user and store them in variables
-  var obtainedMarks2 = parseInt(prompt("Enter obtained marks for " + subject2 + ":"));
-  var obtainedMarks3 = parseInt(prompt("Enter obtained marks for " + subject3 + ":"));
+  let obtainedMarks2 = parseInt(prompt("Enter obtained marks for " + subject2 + ":"));
+  let obtainedMarks3 = parseInt(prompt("Enter obtained marks for " + subject3 + ":"));
 
   // Calculate total marks and percentage
-  var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
-  var percentage = (totalObtainedMarks / (totalMarks * 3)) * 100;
+  let totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+  let percentage = (totalObtainedMarks / (totalMarks * 3)) * 100;
 
   // Show the result in browser
   document.write("<table border='1'>");
